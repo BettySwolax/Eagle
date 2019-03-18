@@ -1,0 +1,13 @@
+JOIN_MESSAGE:
+  - "test"
+  - "test"
+  - "test"
+  - "test"
+  - "test"
+  - "test"
+  - "test"
+
+ITEM:
+  SELECTOR:
+    NAME: "&6Server Selector &7(Right Click)"
+    LORE: "&7Right Click to open server compass."
