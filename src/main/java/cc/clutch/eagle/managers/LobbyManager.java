@@ -28,11 +28,13 @@ public class LobbyManager extends Module {
             player.sendMessage(ChatColor.translateAlternateColorCodes('&', m));
         }
 
+        player.getInventory().clear();
+
         ItemStack serverSelector = new ItemFactory(Material.CHEST)
                 .name(ChatColor.translateAlternateColorCodes('&', getInstance().getConfigurationCursor().getConfiguration().getString("ITEM.SELECTOR.NAME")))
                 .lore(C.translate(getInstance().getConfigurationCursor().getConfiguration().getString("ITEM.SELECTOR.LORE")))
                 .build();
 
-        player.getInventory().setItem(0, serverSelector);
+        player.getInventory().setItem(getInstance().getConfigurationCursor().getConfiguration().getInt("ITEM.SELECTOR.SLOT"), serverSelector);
     }
 }

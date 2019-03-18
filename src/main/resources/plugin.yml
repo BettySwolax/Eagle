@@ -1,0 +1,3 @@
+name: Eagle
+main: cc.clutch.eagle.EaglePlugin
+version: 1.0

@@ -7,7 +7,17 @@ JOIN_MESSAGE:
   - "test"
   - "test"
 
+SCOREBOARD:
+  TITLE: "&6&lClutch &7(Hub-01)"
+  LAYOUT:
+    - "&7&m----------------------"
+    - "&6Online&7: &f <online_count>"
+    - " "
+    - "&6Rank&7:&f <rank>"
+    - "&7&m----------------------"
+
 ITEM:
   SELECTOR:
     NAME: "&6Server Selector &7(Right Click)"
     LORE: "&7Right Click to open server compass."
+    SLOT: 4
